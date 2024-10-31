@@ -106,11 +106,12 @@ while True:
     if btn3.is_pressed:
         if player.queryBusy() == False:
             pause_show(current_song_index)
+            sleep(0.2)
             
     #if btn3.is_pressed:
     #    current_song_index = (current_song_index - 1 + total_songs) % total_songs
     #    print(f"prev ==> {song_names[current_song_index]} (index: {current_song_index + 1})")
-        sleep(0.2)
+    #    sleep(0.2)
         
     #btn1.when_pressed = track1
     #btn2.when_pressed = track2
